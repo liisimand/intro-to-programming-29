@@ -12,6 +12,14 @@ public class IfElseExample {
 
         if (age < 18) {
             System.out.println("just a kid");
+
+        }
+        if (age >= 18) {
+            System.out.println("If is true");
+            System.out.println("Adult");
+        } else {
+            System.out.println("Else, if was false");
+            System.out.println("Kid");
         }
 
     }
