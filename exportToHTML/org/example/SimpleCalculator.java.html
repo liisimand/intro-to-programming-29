@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>SimpleCalculator.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #6aab73;}
+.s4 { color: #2aacb8;}
+.s5 { color: #7a7e85;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+SimpleCalculator.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">org</span><span class="s2">.</span><span class="s1">example</span><span class="s2">;</span>
+
+<span class="s0">public class </span><span class="s1">SimpleCalculator </span><span class="s2">{</span>
+
+    <span class="s0">public static void </span><span class="s1">main</span><span class="s2">(</span><span class="s1">String</span><span class="s2">[] </span><span class="s1">args</span><span class="s2">) {</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Starting calculations&quot;</span><span class="s2">);</span>
+
+        <span class="s1">addTwoNumbers</span><span class="s2">(</span><span class="s4">1</span><span class="s2">, </span><span class="s4">2</span><span class="s2">);</span>
+        <span class="s1">addTwoNumbers</span><span class="s2">(</span><span class="s4">25</span><span class="s2">, </span><span class="s4">17</span><span class="s2">);</span>
+        <span class="s1">addTwoNumbers</span><span class="s2">(</span><span class="s4">255</span><span class="s2">, </span><span class="s4">17</span><span class="s2">);</span>
+
+        <span class="s0">int </span><span class="s1">first </span><span class="s2">= </span><span class="s4">5</span><span class="s2">;</span>
+        <span class="s0">int </span><span class="s1">second </span><span class="s2">= </span><span class="s4">6</span><span class="s2">;</span>
+        <span class="s1">addTwoNumbers</span><span class="s2">(</span><span class="s1">first</span><span class="s2">, </span><span class="s1">second</span><span class="s2">);</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public static void </span><span class="s1">addTwoNumbers</span><span class="s2">(</span><span class="s0">int </span><span class="s1">firstNumber</span><span class="s2">, </span><span class="s0">int </span><span class="s1">secondNumber</span><span class="s2">) {</span>
+        <span class="s5">// First number is: 1, second number is: 5</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;First number is: &quot; </span><span class="s2">+ </span><span class="s1">firstNumber </span><span class="s2">+ </span><span class="s3">&quot;, second number is: &quot; </span><span class="s2">+ </span><span class="s1">secondNumber</span><span class="s2">);</span>
+
+        <span class="s0">int </span><span class="s1">sum </span><span class="s2">= </span><span class="s1">firstNumber </span><span class="s2">+ </span><span class="s1">secondNumber</span><span class="s2">;</span>
+        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Sum of two numbers is: &quot; </span><span class="s2">+ </span><span class="s1">sum</span><span class="s2">);</span>
+    <span class="s2">}</span>
+<span class="s2">}</span></pre>
+</body>
+</html>
